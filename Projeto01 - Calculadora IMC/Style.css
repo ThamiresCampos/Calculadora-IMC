@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(208, 158, 231);
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: rgb(193, 128, 253);
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+/*box shadow = cria uma sombra atras de algo*/ 
+/*border radius= é o arredondamento das bordas*/
+/*justify content: space evenly= dá um espaçamento entre as coisas verticalmente*/
+/*flex direction: column= deixar as coisas uma embaixo da outra*/
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2.5rem serif;
+    border-bottom: solid 5px black;
+    margin-bottom: 20px;
+}
+/*border-bottom= cria uma linha da largura da sua preferencia*/
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+/*space between= ajusta o tamanho da caixa*/
+
+.input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font: bold 1.5rem serif;
+    text-align: center;
+}
+
+.input label {
+    font: bold 1.5rem serif;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    font:  bold 1.2rem black;
+    background: #000;
+    color:  rgb(193, 128, 253);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5rem serif;
+    box-shadow: 0px 0px 10px black;
+    background: #000;
+    color:  rgb(193, 128, 253);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
+/*padding= aumenta de tamanho*/
+/*border box= ajusta a um tamanho de caixa*/
+
